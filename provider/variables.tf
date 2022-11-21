@@ -71,7 +71,7 @@ variable "service_principal_client_secret" {
 
 # Azure Kubernetes Cluster Linux Profiles Variables
 variable "linux_profile_admin_username" {
-  type = string
+  type = "admin"
 }
 variable "linux_profile_ssh_key" {
   type = string
